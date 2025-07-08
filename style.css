@@ -1,0 +1,67 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared button */
+.btn{
+    background-color:#FD6E0A;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+/* NavBar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav h3{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+    
+}
+
+.h3span{
+    color: #FD6E0A;
+}
+
+
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+/* font colors */
+
+.dark-2{
+    color: #474747;
+}
+
+
+
+
