@@ -233,6 +233,7 @@ footer textarea{
     border: none;
     border-radius: 5px;
     padding: 18px 365px 134px 30px;
+    resize: none;
 }
 
 input::placeholder, textarea::placeholder{
