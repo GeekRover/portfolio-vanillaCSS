@@ -17,6 +17,15 @@ body{
     border: none;
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* NavBar */
 nav{
     display: flex;
@@ -73,7 +82,9 @@ nav ul{
     color: #757575;
 }
 
-
+.dark-1{
+    color: #181818;
+}
 
 
 /* Banner */
@@ -109,4 +120,74 @@ nav ul{
     height: 676px;
     width: 584px;
     
+}
+
+/* Main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About section */
+
+.aboutme{
+    border-radius: 10px;
+    padding: 130px 157px;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-info{
+    font-weight: bold;
+}
+
+
+/* What i do section */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+
+
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* footer section */
+.footer{
+    margin-top: 130px;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+
+}
+
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    border: none;
 }
